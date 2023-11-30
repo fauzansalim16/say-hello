@@ -13,8 +13,5 @@ RUN npm install
 # Menyalin seluruh kode sumber ke dalam container
 COPY . .
 
-# Mengekspos port 3000
-EXPOSE 3000
-
 # Menjalankan aplikasi ketika container dijalankan
 CMD ["node", "app.js"]
